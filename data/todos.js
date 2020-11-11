@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     todo: 'make the bed',
-    completed: true,
+    completed: false,
   },
   {
     id: 2,
@@ -12,16 +12,6 @@ module.exports = [
   {
     id: 3,
     todo: 'go to the store',
-    completed: false,
-  },
-  {
-    id: 4,
-    todo: 'do the dishes',
-    completed: true,
-  },
-  {
-    id: 5,
-    todo: 'rake the leaves',
     completed: false,
   }
 ];
