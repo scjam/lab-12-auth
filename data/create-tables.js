@@ -17,9 +17,9 @@ async function run() {
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL
                 );           
-                CREATE TABLE to_dos (
+                CREATE TABLE todos (
                     id SERIAL PRIMARY KEY NOT NULL,
-                    to_do VARCHAR(512) NOT NULL,
+                    todo VARCHAR(512) NOT NULL,
                     completed BOOLEAN NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
             );
